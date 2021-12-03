@@ -64,6 +64,8 @@ a {
 #profile img {
     width: 100%;
     margin: 1rem;
+    height: auto;
+    border-radius: 5px;
 }
 
 #projects img {
@@ -84,3 +86,28 @@ a {
 .contact {
     margin: 2rem 0rem 0rem;
 }
+
+#projects-title{
+    text-align: center;
+    margin: 1rem;
+}
+
+#projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.projects-column-title{
+    text-align: center;
+}
+
+.projects-column-figure{
+    text-align: center;
+    margin: 1.5rem;
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+}
+
