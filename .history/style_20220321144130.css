@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    color: rgb(38, 54, 78);
+    font: 18px/1.618 sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: darkred;
+    padding: .25rem .5rem;
+    text-decoration: none;
+}
+
+.container {
+    background-color: white;
+    margin: 2rem auto;
+    max-width: 60rem;
+    width: 90%;
+    -webkit-box-shadow: 7px 7px 15px 0px rgba(122, 115, 122, 1);
+    -moz-box-shadow: 7px 7px 15px 0px rgba(122, 115, 122, 1);
+    box-shadow: 7px 7px 15px 0px rgba(122, 115, 122, 1);
+}
+
+.page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:url('assets\Evo_Mountain-1.jpg');
+}
+
+#header-logo {
+    margin-left: 1.5rem;
+    font-style: bold;
+}
+
+.header-nav {
+    display: flex;
+    list-style-type: none;
+}
+
+.header-nav-item {
+    list-style-type: none;
+    margin: 1rem;
+}
+
+.header-nav-item:hover {
+    background-color: grey;
+    border: .5px solid rgb(38, 54, 78);
+    border-radius: .5rem;
+    transition: .5s;
+}
+
+#profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+#profile img {
+    width: 70%;
+    margin: 1rem;
+    height: auto;
+    border-radius: 5px;
+    
+}
+
+#projects img {
+    width: 60%;
+    margin: 2rem;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem 3rem;
+}
+
+.skills {
+    margin-top: 1rem;
+}
+
+
+#projects-title{
+    text-align: center;
+    margin: 1rem;
+}
+
+#projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.projects-column-title{
+    text-align: center;
+}
+
+.projects-column-figure{
+    text-align: center;
+    margin: 1.5rem;
+}
+
+#footer{
+    display: flex;
+    align-items:center
+}
+
+#github, #linkedin {
+    font-size: x-large;
+    margin: 4px;
+}
+
+#email{
+    font-size: medium;
+    margin-bottom: -3px;
+}
+
+
+
+
+
