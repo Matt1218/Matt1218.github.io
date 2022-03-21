@@ -95,6 +95,7 @@ a {
 #projects-title{
     text-align: center;
     margin: 1rem;
+    text-decoration: underline;
 }
 
 #projects{
