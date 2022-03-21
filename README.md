@@ -1,3 +1,4 @@
 # Matt1218.github.io
 
-Restyling and updating my website. 
+Still a work in progress, but my portfolio website. 
+
