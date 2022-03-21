@@ -21,7 +21,9 @@ html {
 
 a {
     text-decoration: none;
+    color: rgb(0, 0, 0);
 }
+
 
 .container {
     background-color: white;
@@ -95,6 +97,7 @@ a {
 #projects-title{
     text-align: center;
     margin: 1rem;
+    text-decoration: underline;
 }
 
 #projects{
@@ -122,10 +125,17 @@ a {
     padding: 5px;
 }
 
+#github:hover, #linkedin:hover{
+    transform: scale(1.5);
+}
+
 #email{
     font-size: medium;
     margin-bottom: -3px;
     padding: 5px;
+}
+#email:hover{
+    transform: scale(1.1);
 }
 
 
