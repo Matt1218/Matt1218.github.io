@@ -26,7 +26,7 @@ a {
 
 a.project-link:hover{
     background-color: grey;
-    border: .5px solid rgb(38, 54, 78);
+    border: .5px rgb(38, 54, 78);
     border-radius: .5rem;
     transition: .5s;
 }
@@ -71,7 +71,7 @@ a.project-link:hover{
 
 .header-nav-item:hover {
     background-color: grey;
-    border: .5px solid rgb(38, 54, 78);
+    border: .5px rgb(38, 54, 78);
     border-radius: .5rem;
     transition: .5s;
 }
@@ -86,12 +86,13 @@ a.project-link:hover{
     margin: 1rem;
     height: auto;
     border-radius: 5px;
-    
+    box-shadow: 7px 7px 15px 0px rgba(122, 115, 122, 1);
 }
 
 #projects img {
-    width: 60%;
-    margin: 2rem;
+    max-width: 90%;
+    height: auto;
+    margin: 5px 5px 15px 5px;
 }
 
 .bio {
@@ -116,10 +117,6 @@ a.project-link:hover{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-/* .projects-column{
-    background-color: aqua;
-} */
-
 .projects-column-title{
     text-align: center;
 }
@@ -130,14 +127,17 @@ a.project-link:hover{
 }
 
 #footer{
+    background-color: rgb(60, 90, 134);
     display: flex;
-    align-items:center
+    align-items: center;
+    flex-direction: row-reverse;
 }
 
 #github, #linkedin {
     font-size: x-large;
     margin: 4px;
-    padding: 5px;
+    padding: 5px 15px 5px 5px;
+    color: white;
 }
 
 #github:hover, #linkedin:hover{
@@ -147,7 +147,8 @@ a.project-link:hover{
 #email{
     font-size: medium;
     margin-bottom: -3px;
-    padding: 5px;
+    padding: 5px 15px 5px 5px;
+    color: white;
 }
 #email:hover{
     transform: scale(1.1);
