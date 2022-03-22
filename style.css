@@ -78,7 +78,8 @@ a.project-link:hover{
 
 #profile {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex: 50%;
 }
 
 #profile img {
